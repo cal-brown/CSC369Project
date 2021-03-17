@@ -1,4 +1,5 @@
-[debug] not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/C:/Users/Calvin%20Brown/github/CSC369Project/"), "csc369project")...
-[debug] Done updating ProjectRef(uri("file:/C:/Users/Calvin%20Brown/github/CSC369Project/"), "csc369project")
+[warn] scala-library-2.11.8-sources.jar no longer exists at C:\Users\Calvin Brown\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8-sources.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/H:/School/CSC%20369%20-%20Distributed%20Computing/CSC369Project/"), "csc369project")...
+[debug] Done updating ProjectRef(uri("file:/H:/School/CSC%20369%20-%20Distributed%20Computing/CSC369Project/"), "csc369project")
 [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

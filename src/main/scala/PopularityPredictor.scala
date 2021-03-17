@@ -1,15 +1,6 @@
-import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.rdd._
-import org.apache.log4j.Logger
-import org.apache.log4j.Level
-import org.apache.spark.sql.SparkSession
-import org.apache.spark.ml.linalg.{Matrix, Vectors}
-import org.apache.spark.ml.stat.Correlation
+import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.Row
-import spire.compat.fractional
-
-import scala.math.Fractional.Implicits.infixFractionalOps
-
+import org.apache.spark.{SparkConf, SparkContext}
 
 
 object PopularityPredictor {
