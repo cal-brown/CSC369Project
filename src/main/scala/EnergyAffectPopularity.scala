@@ -24,9 +24,10 @@ object EnergyAffectPopularity {
       .groupByKey()
       .map({case(year, energyRatio) => (year, energyRatio.sum / energyRatio.size)})
 
-    groupedByYear.foreach(println(_))
-
-
-    groupedByYear.sortByKey().take(10000).foreach(x => println("In "  + x._1 + (if(-0.1 < x._2 && x._2 < 0.1) " A song's popularity and energy showed a correlation" else " A song's popularity and energy did not show a correlation")))  }
+    groupedByYear.sortByKey().take(10000).foreach(x => println("In "  + x._1 +
+      (if(-0.1 < x._2 && x._2 < 0.1) " A song's popularity and energy showed a correlation. "
+      else " A song's popularity and energy did not show a correlation. ") +
+      (if(x._2 > 0) "Songs this year were on average less energetic."
+      else "Songs this year were on average more energetic.")))  }
 
 }
