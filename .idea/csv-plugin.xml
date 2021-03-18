@@ -31,6 +31,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\scala\ArtistBySongs.scala">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\scala\ExplicitPopularity.scala">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\scala\TopThreePerGenre.scala">
           <value>
             <Attribute>
