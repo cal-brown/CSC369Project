@@ -28,7 +28,7 @@ object ExplicitPopularity {
     val popPercentages = explicitGroupedByYear.join(nonExplicitGroupedByYear)
       .map({case (year, (exp, nonExp)) => (year, ((exp.toFloat / (exp + nonExp).toFloat) * 100, (nonExp.toFloat / (exp + nonExp).toFloat) * 100 ))})
 
-    popPercentages.sortByKey().take(20).foreach(x => println("Year: " + x._1 + ", Explicit: " + "%.0f".format(x._2._1) + "%, Non-Explicit: " + "%.0f".format(x._2._2) + "%"))
+    popPercentages.sortByKey().foreach(x => println("Year: " + x._1 + ", Explicit: " + "%.0f".format(x._2._1) + "%, Non-Explicit: " + "%.0f".format(x._2._2) + "%"))
   }
 
 }
